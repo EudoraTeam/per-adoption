@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Dog",
+      "code": "D"
+    },
+    {
+      "name": "Cat",
+      "code": "C"
+    },
+    {
+      "name": "Other",
+      "code": "O"
+    }
+]
