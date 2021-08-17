@@ -1,2 +1,2 @@
-# per-adoption
+# pet-adoption
 competition
