@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+.footer-container {
+    background-color: #1f042e;
+    padding: 25px  50 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .footer-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+  
+    margin-bottom: 24px;
+    padding: 24px 50px;
+    color: #fff;
+  }
+
+  .footer-heading {
+    margin-bottom: 24px;
+    font-size: 18px;
+  
+    
+  }
+ 
+  .footer-icon{
+   
+     white-space: nowrap;
+   
+  }
+
+  .footer-icon:hover{
+    transform: translateY(-2px);
+  }

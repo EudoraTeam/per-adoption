@@ -12,35 +12,35 @@ const info ={
         
         id:1,
         img: image_1,
-        title: 'dog 1',
-        desc: 'desc 1'
+        title: 'Dool-Dog(Black and Tan Coonhound puppy)',
+        desc: ' Black and Tan Coonhound cute puppy. Age : 2 month olds.'
         },
         {
-            id:1,
+            id:2,
             img: image_2,
             title: 'doggy 2',
             desc: 'desc 2'
             },
             {
-                id:1,
+                id:3,
                 img: image_3,
                 title: ' other',
                 desc: 'desc 3'
                 },
                 {
-                    id:1,
+                    id:4,
                     img: image_4,
                     title: 'cat ',
                     desc: 'desc 4'
                     },
                     {
-                        id:1,
+                        id:5,
                         img: image_5,
                         title: 'doggy',
                         desc: 'desc 5'
                         },
                         {
-                            id:1,
+                            id:6,
                             img: image_6,
                             title: 'other',
                             desc: 'desc 6'

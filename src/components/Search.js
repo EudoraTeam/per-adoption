@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import info from "../info";
 
 
+
 const Search = () => {
   const[filter,setFilter] = useState('');
   const searchText = (event)=>{
@@ -31,20 +32,23 @@ const Search = () => {
   </div>
 
 </div>
-        {infoSearch.map((item,index)=>{
+        {infoSearch.map((item,id)=>{
         return(
             <div className = "col-11 col-md-6 col-lg-3 mx-0 mb-4">
           <div className = "card p-0 overflow-hidden h-100 shadow">
             
-              <Link to = '/dog_1'className = 'img-links'>
+              <Link to = '/Dog_1' className = 'img-links'>
             <img src ={item.img} className="card-img-top" alt = "pet img"/>
            
                   <div className = "card-body">
                   <h5 className ="card-title">{item.title}</h5>
+               
+                      </div>
+                          </Link> 
                     <p className="card-text">{item.desc}</p>
 
-                  </div>
-                 </Link>
+                
+               
 
               </div>
          </div>

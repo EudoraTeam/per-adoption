@@ -1,0 +1,14 @@
+import React from 'react';
+
+
+function DogOne(){
+    return(
+<div>
+    <h1>Black and Tan Coonhound</h1>
+</div>
+    );
+
+
+}
+
+export default DogOne;

@@ -34,6 +34,7 @@ video {
   
   .add-btns {
     margin-top: 32px;
+    color: #fff;
   }
   
   .add-btns .btn {
@@ -63,7 +64,7 @@ video {
   
     .btn-mobile {
       display: block;
-       background-color: #fff;
+       
       text-decoration: none;
     }
   

@@ -3,31 +3,35 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import{BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import Search from './components/Search';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Footer from './components/footer';
 
 
 
 function App() {
   return (
     <>
-     <div className =".App">
+  
       <Router>
     
         <Navbar/>
         <Switch>
         <Route path = '/' exact component = {Home}/>
-
+      
+        
         </Switch>
-      </Router>
+        </Router>
+           
 
 
-        <Router>
-      <Switch>
-        <Search />
-        </Switch>
-      </Router>
-      </div>
+
+<div className = "App">
+      
+</div> 
+
+        <Footer/>
+        
 
    </>
   );
